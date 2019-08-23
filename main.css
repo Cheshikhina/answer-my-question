@@ -129,6 +129,10 @@
       margin-top: 10vh;
     }
     
+    .question__title {
+      font-size: 27px;
+    }
+    
     .question__button {
       width: 90%;
     }
