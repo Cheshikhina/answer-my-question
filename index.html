@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" href="main.css">
+  <title>Выбор</title>
+</head>
+
+<body>
+  <main>
+    <section class="question">
+      <h2 class="question__title">Задай свой вопрос</h2>
+      <ol class="question__list">
+        <li class="question__item">Прежде чем задать вопрос, подумай: "Точно ли ты хочешь знать ответ? Cтоит ли испытывать судьбу?"</li>
+        <li class="question__item">На вопросы типа "Как? Когда? Сколько денег? Почему так мало?" Я НЕ ОТВЕЧАЮ! Формулируй вопрос конкретно. Только Да или Нет!</li>
+      </ol>
+      <a href="answer.html" class="question__button" id="question-button" area-label="Ссылка на ответ">Нажми и узнаешь ответ</a>
+    </section>
+    <section class="answers">
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>Сделано Мною</p>
+  </footer>
+
+  <!-- Шаблон ответа на вопрос -->
+  <template id="answer">
+    <div class="answer">  
+      <button type=button class="answer__button" id="answer-button" area-label="Кнопка для закрытия окна с ответом">Закрыть</button>
+      <p class="answer__info">
+        <span class="answer__img">
+          <img src="" width="182" height="182" alt="Картинка для поднятия настроения">
+        </span>
+        <span class="answer__text">Даже не знаю что ответить, попробуй позже</span>
+      </p>
+    </div>
+  </template>
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>
