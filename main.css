@@ -110,7 +110,7 @@
     }
 
     .question__list {
-      padding-left: 45px;
+      padding-left: 35px;
     }
 
     .question__item {
@@ -197,6 +197,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 5px;
     margin: 45px auto;
   }
   
@@ -241,7 +242,7 @@
     }
     
     .answer__text {
-      width: 100%;
+      width: 85vw;
       padding: 15px;
     }
 
