@@ -238,11 +238,12 @@
 
     .answer__info {
       flex-direction: column;
+      width: inherit;
       margin: 35px auto 0;
     }
     
     .answer__text {
-      width: 85vw;
+      width: 63vw;
       padding: 15px;
     }
 
@@ -265,6 +266,10 @@
 
     .answer__button {
       width: 90%;
+    }
+
+    .answer__text {
+      width: 85vw;
     }
   }
 
